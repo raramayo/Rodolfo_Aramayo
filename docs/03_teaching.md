@@ -75,7 +75,7 @@ properties.
 ### **Undergraduate Level**
 | NAME                           | NUMBER  | YEAR(s)     | CREDIT(S)  |
 |--------------------------------|---------|-------------|------------|
-| Cellular and Molecular Biology | BIOL213 | 2023        | 03 Credits |
+| Cellular and Molecular Biology | BIOL213 | 2023 - 2024 | 03 Credits |
 | Fundamentals of Microbiology   | MICR351 | 2004 – 2005 | 04 Credits |
 | Bacterial Genetics             | MICR406 | 1997 – 2000 | 03 Credits |
 
