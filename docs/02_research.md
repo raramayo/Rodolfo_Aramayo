@@ -1,18 +1,11 @@
 # **Research**
-My current research primarily focuses on understanding the
-organization, distribution, and comparison of information in
-Biological Systems. Our work encompasses two key levels of
-investigation:
 
-## **Molecular Genetics:**
-We employ the filamentous fungus _Neurospora crassa_ as a model
-organism to uncover and comprehend the intricate molecular components
-responsible for sequence-based comparisons between homologous
-chromosomes, leading to the initiation of Meiotic Silencing, a
-phenomenon driven by RNA-mediated processes. Currently, our primary
-focus centers on the exploration of whether genes recognized for their
-significance in Meiotic Transvection/Silencing also contribute to the
-occurrence of Repeat Induced Point Mutation (RIP) phenomena.
+My research focuses on understanding how information is organized,
+distributed, and compared in biological systems. Our work encompasses
+two key levels of investigation:
+
+1. **Exploring the digitization** of the information present in DNA, RNA, and proteins, and how this can be used at detecting reciprocal mutations and sequence differences between related genomes.
+2. **Using *Neurospora crassa* as a model organism**, we areidentifying molecular players involved in sequence-based comparison between homologous chromosomes.
 
 ## **Computational Analysis:**
 We are developing novel computational pipelines dedicated to detecting
@@ -35,3 +28,14 @@ understanding of diseases, particularly Cancer and Metagenomics. This
 informational perspective also contributes to our comprehension of
 genome evolution, especially in the field of comparative genomics and
 microbial metagenomics.
+
+## **Molecular Genetics:**
+We employ the filamentous fungus _Neurospora crassa_ as a model
+organism to uncover and comprehend the intricate molecular components
+responsible for sequence-based comparisons between homologous
+chromosomes, leading to the initiation of Meiotic Silencing, a
+phenomenon driven by RNA-mediated processes. Currently, our primary
+focus centers on the exploration of whether genes recognized for their
+significance in Meiotic Transvection/Silencing also contribute to the
+occurrence of Repeat Induced Point Mutation (RIP) phenomena.
+
