@@ -6,30 +6,37 @@ two key levels of investigation:
 
 ## **Computational Analysis:**
 
+**Developing computational algorithms to address the complexities of genome data**
+
+We are currently studying different ways to correct Transcriptional
+Profiling estimation errors due to the presence of repetitive
+sequences and identifying genomic differences between normal and
+cancer cells.
+
 **Exploring the digitization** of the information present in DNA, RNA,
 and proteins, and how this can be used at detecting reciprocal
 mutations and sequence differences between related genomes.
 
-We are developing novel computational pipelines dedicated to detecting
-sequence variations within related genomes. We are particularly
-intrigued by the prospect of simplifying (i.e., digitizing) the
-information present in DNA, RNA, and Proteins so as to simplify its
-manipulation and analysis. We think that digitizing emerging genomic
-data will not only enable us to use this data effectively but also to
-integrate it into Artificial Intelligence, Data Clustering, and Image
-Recognition Algorithms, in ways not done before. We posit that this
-process of converting biological features into digital equivalents has
-the potential to simplify genomic information, making it easier to
-uncover previously unnoticed patterns through complex computational
-comparisons. This approach has already yielded promising results by
-revealing unexpected informational patterns across various organisms'
-chromosomes. We believe that it will streamline and enhance our
-ability to comprehend different cellular and organismal
-states. Moreover, it holds significant promise in revolutionizing our
-understanding of diseases, particularly Cancer and Metagenomics. This
-informational perspective also contributes to our comprehension of
-genome evolution, especially in the field of comparative genomics and
-microbial metagenomics.
+We are also developing novel computational pipelines dedicated to
+detecting sequence variations within related genomes. We are
+particularly intrigued by the prospect of simplifying (i.e.,
+digitizing) the information present in DNA, RNA, and Proteins so as to
+simplify its manipulation and analysis. We think that digitizing
+emerging genomic data will not only enable us to use this data
+effectively but also to integrate it into Artificial Intelligence,
+Data Clustering, and Image Recognition Algorithms, in ways not done
+before. We posit that this process of converting biological features
+into digital equivalents has the potential to simplify genomic
+information, making it easier to uncover previously unnoticed patterns
+through complex computational comparisons. This approach has already
+yielded promising results by revealing unexpected informational
+patterns across various organisms' chromosomes. We believe that it
+will streamline and enhance our ability to comprehend different
+cellular and organismal states. Moreover, it holds significant promise
+in revolutionizing our understanding of diseases, particularly Cancer
+and Metagenomics. This informational perspective also contributes to
+our comprehension of genome evolution, especially in the field of
+comparative genomics and microbial metagenomics.
 
 ## **Molecular Genetics:**
 
