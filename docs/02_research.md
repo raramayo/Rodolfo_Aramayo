@@ -4,10 +4,12 @@ My research focuses on understanding how information is organized,
 distributed, and compared in biological systems. Our work encompasses
 two key levels of investigation:
 
-1. **Exploring the digitization** of the information present in DNA, RNA, and proteins, and how this can be used at detecting reciprocal mutations and sequence differences between related genomes.
-2. **Using *Neurospora crassa* as a model organism**, we areidentifying molecular players involved in sequence-based comparison between homologous chromosomes.
-
 ## **Computational Analysis:**
+
+**Exploring the digitization** of the information present in DNA, RNA,
+and proteins, and how this can be used at detecting reciprocal
+mutations and sequence differences between related genomes.
+
 We are developing novel computational pipelines dedicated to detecting
 sequence variations within related genomes. We are particularly
 intrigued by the prospect of simplifying (i.e., digitizing) the
@@ -30,12 +32,16 @@ genome evolution, especially in the field of comparative genomics and
 microbial metagenomics.
 
 ## **Molecular Genetics:**
-We employ the filamentous fungus _Neurospora crassa_ as a model
-organism to uncover and comprehend the intricate molecular components
-responsible for sequence-based comparisons between homologous
-chromosomes, leading to the initiation of Meiotic Silencing, a
-phenomenon driven by RNA-mediated processes. Currently, our primary
-focus centers on the exploration of whether genes recognized for their
-significance in Meiotic Transvection/Silencing also contribute to the
-occurrence of Repeat Induced Point Mutation (RIP) phenomena.
+
+**Using ***Neurospora crassa*** as a model organism**, we are
+identifying molecular players involved in sequence-based comparison
+between homologous chromosomes.
+
+We want to understand the intricate molecular components responsible
+for sequence-based comparisons between homologous chromosomes, leading
+to the initiation of Meiotic Silencing, a phenomenon driven by
+RNA-mediated processes. Currently, our primary focus centers on the
+exploration of whether genes recognized for their significance in
+Meiotic Transvection/Silencing also contribute to the occurrence of
+Repeat Induced Point Mutation (RIP) phenomena.
 
