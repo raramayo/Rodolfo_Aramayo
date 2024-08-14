@@ -70,12 +70,16 @@ properties.
 ### **Graduate Level**
 | NAME                                         | NUMBER  | YEAR(s)     | CREDIT(S)  |
 |----------------------------------------------|---------|-------------|------------|
+| Genomics                                     | BIOL650 | 2000 - 2023 | 03 Credits |
 | Advanced Eukaryotic Genetics and Epigenetics | BIOL689 | 2003 – 2005 | 04 Credits |
+| Digital Biology                              | BIOL647 | 2012 - 2024 | 04 Credits |
+
 
 ### **Undergraduate Level**
 | NAME                           | NUMBER  | YEAR(s)     | CREDIT(S)  |
 |--------------------------------|---------|-------------|------------|
 | Cellular and Molecular Biology | BIOL213 | 2023 - 2024 | 03 Credits |
+| Computational Genomics         | BIOL350 | 2010 - 2023 | 03 Credits |
 | Fundamentals of Microbiology   | MICR351 | 2004 – 2005 | 04 Credits |
 | Bacterial Genetics             | MICR406 | 1997 – 2000 | 03 Credits |
 
