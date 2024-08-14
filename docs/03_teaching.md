@@ -76,12 +76,13 @@ properties.
 
 
 ### **Undergraduate Level**
-| NAME                           | NUMBER  | YEAR(s)     | CREDIT(S)  |
-|--------------------------------|---------|-------------|------------|
-| Cellular and Molecular Biology | BIOL213 | 2023 - 2024 | 03 Credits |
-| Computational Genomics         | BIOL350 | 2010 - 2023 | 03 Credits |
-| Fundamentals of Microbiology   | MICR351 | 2004 – 2005 | 04 Credits |
-| Bacterial Genetics             | MICR406 | 1997 – 2000 | 03 Credits |
+| NAME                                                               | NUMBER  | YEAR(s)     | CREDIT(S)  |
+|--------------------------------------------------------------------|---------|-------------|------------|
+| Cellular and Molecular Biology                                     | BIOL213 | 2023 - 2024 | 03 Credits |
+| Computational Genomics                                             | BIOL350 | 2010 - 2023 | 03 Credits |
+| Fundamentals of Microbiology                                       | MICR351 | 2004 – 2005 | 04 Credits |
+| Directed Studies in Biological Thought (Darwin and The Art of War) | BIOL285 | 2002        | 01 Credits |
+| Bacterial Genetics                                                 | MICR406 | 1997 – 2000 | 03 Credits |
 
 ### **Courses Taught As Teaching Assistant**
 | NAME                                   | NUMBER            | YEAR(s) | CREDIT(S)  |
