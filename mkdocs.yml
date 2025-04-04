@@ -3,7 +3,7 @@ site_url: https://raramayo.github.io/Rodolfo_Aramayo/
 nav:
     - Home: index.md
     - About me: 01_about_me.md
-    - Professional Skills:: 02_Professional_Skills.md
+    - Professional Skills: 02_Professional_Skills.md
     - Research: 03_research.md
     - Teaching: 04_teaching.md
     - Publications: 05_publications.md
