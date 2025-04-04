@@ -1,3 +1,6 @@
+<p align="center">
+<img src="https://github.com/raramayo/Rodolfo_Aramayo/blob/main/assets/Rodolfo_Pic.jpg" width="400" height="400" style="display: block; margin: 0 auto">
+
 ![](https://github.com/raramayo/Rodolfo_Aramayo/blob/main/assets/Rodolfo_Pic.jpg?raw=true "Rodolfo Aramayo, PhD")
 
 **Rodolfo Aramayo, PhD**  
