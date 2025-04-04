@@ -1,5 +1,26 @@
 # **Publications**
 
+## **Electronic Publications**
+1.	Aramayo R. Transcripts_Plots_Python. In: https://doi.org/10.5281/zenodo.14962604, editor. Zenodo. v2025-02-28-1.0.2 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2025.
+2.	Aramayo R. The third international hackathon for applying insights into large-scale genomic composition to use cases in a wide range of organisms. F1000Research. 2022. Epub June 22, 2022. doi: 10.5256/f1000research.121770.r139299.
+3.	Aramayo R. Teaching Computational Genomics: A Tale of Tables and Tests. In: https://doi.org/10.5281/zenodo.6634707, editor. Zenodo. v2022-06-11-1.0.0 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2022.
+4.	Aramayo R. Taxonomy_Fasta_Headers_Python. In: https://doi.org/10.5281/zenodo.14967828, editor. Zenodo. v2025-03-04-1.0.0 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2025.
+5.	Aramayo R. A re-analysis of an existing Drosophila melanogaster dataset reveals a new set of genes involved in post-mating response. In: https://doi.org/10.5281/zenodo.10928217, editor. Zenodo. v2024-04-04-1.0.4 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2024.
+6.	Olalekan R, Laver J, Yuka G, Biggane J, Aramayo R, Nagesh V, authors o. PREreview of "Epigenetic deprogramming driven by disruption of CIZ1-RNA nuclear assemblies in early-stage breast cancers". In: https://doi.org/10.5281/zenodo.13896173, editor. Zenodo. v1 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2024.
+7.	Oliveras A, Silvera M, Coskun P, Bajaj T, Aramayo R, Saikia Q, Faria-Pereira A, Yuka G, Davies M, Laver L, author o. PREreview of "Cytoplasmic ribosomes hitchhike on mitochondria to dendrites". In: https://doi.org/10.5281/zenodo.14268614, editor. Zenodo. v1 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2024.
+8.	Aramayo R. PepStats_Tables_Python. In: https://doi.org/10.5281/zenodo.10889792, editor. Zenodo. v2024-03-28-1.0.0 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2024.
+9.	Aramayo R. PepStats_Tables_Bash. In: https://doi.org/10.5281/zenodo.12209240, editor. Zenodo. v2024-06-21-1.0.5 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2024.
+10.	Aramayo R. HeatMap_Tables_Python. In: https://doi.org/10.5281/zenodo.15150156, editor. Zenodo. v2025-04-04-1.0.2 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2025.
+11.	Aramayo R. Fasta_Seq_Prepare_Bash. In: https://doi.org/10.5281/zenodo.12209223, editor. Zenodo. v2024-06-21-1.0.5 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2024.
+12.	Aramayo R. Fasta_Seq_Plot_Bash. In: https://doi.org/10.5281/zenodo.12209220, editor. Zenodo. v2024-06-21-1.0.7 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2024.
+13.	Aramayo R. Fasta_GFF3_Equalizer_Bash. In: https://doi.org/10.5281/zenodo.12209207, editor. Zenodo. v2024-06-21-1.0.2 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2024.
+14.	Gallucci JL, Aramayo R. Do Public Databases Need Higher Standards for Next-Generation Data Submissions? In: https://doi.org/10.5281/zenodo.7943045, editor. Zenodo. v2023-05-16-1.0.0 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2023.
+15.	Aramayo R. Digital_Biology. In: https://doi.org/10.5281/zenodo.6626236, editor. Zenodo. v2022-06-08-1.0.0 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2022.
+16.	Aramayo R. Computational_Genomics. In: https://doi.org/10.5281/zenodo.7897471, editor. Zenodo. (v2023-05-04-2023-1.0.3 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2023.
+17.	Aramayo R. Compara_lists. In: https://doi.org/10.5281/zenodo.6584768, editor. Zenodo. v2022-05-26-1.0.1 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2022.
+18.	Aramayo R. Busco_Plot. In: https://doi.org/10.5281/zenodo.10945686, editor. Zenodo. v2024-04-08-1.0.0 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2024.
+19.	Aramayo R. Bioinformatics_Fall_2021. In: https://doi.org/10.5281/zenodo.6620727, editor. Zenodo. v2022-06-07-2021-1.0.2 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2022.
+20.	Aramayo R. Assessing the Influence of Sequence Duplications and Genome Annotations on Transcriptional Profiling Measurements. In: https://doi.org/10.5281/zenodo.11122398, editor. Zenodo. v2024-05-06-1.0.0 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2024.
 ## **Peer-Reviewed Publications**
 1.	White B, Aramayo R. Identification and Characterization of Reciprocal Amino-Acids Residues Substitutions. In preparation. 2024.
 2.	Ramirez P, MH M, Aramayo R, Mateos M. Diverse toxin repertoire but limited metabolic capacities inferred from the draft genome assemblies of three Spiroplasma (Citri clade) strains associated with Drosophila. bioRxiv. 2024:2024.09.23.613922v1. doi: 10.1101/2024.09.23.613922.
@@ -62,24 +83,3 @@
 59.	de Castro LL, Z. Aramayo, R. Sampaio, M. Gander, E. Evidence for a precursor molecule of Brazil nut 2S seed proteins from biosynthesis and cDNA analysis. Molecular and General Genetics MGG. 1987;206(02):338-43.
 60.	Aramayo R CL. Isolation and characterization of a peptide from Bacillus subtilis (Ehrenberg) Cohn, T41, with antibiotic activity against phytopathogenic fungi. Fitopatología Brasileira. 1986;11.
 
-## **Electronic Publications**
-1.	Aramayo R. Transcripts_Plots_Python. In: https://doi.org/10.5281/zenodo.14962604, editor. Zenodo. v2025-02-28-1.0.2 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2025.
-2.	Aramayo R. The third international hackathon for applying insights into large-scale genomic composition to use cases in a wide range of organisms. F1000Research. 2022. Epub June 22, 2022. doi: 10.5256/f1000research.121770.r139299.
-3.	Aramayo R. Teaching Computational Genomics: A Tale of Tables and Tests. In: https://doi.org/10.5281/zenodo.6634707, editor. Zenodo. v2022-06-11-1.0.0 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2022.
-4.	Aramayo R. Taxonomy_Fasta_Headers_Python. In: https://doi.org/10.5281/zenodo.14967828, editor. Zenodo. v2025-03-04-1.0.0 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2025.
-5.	Aramayo R. A re-analysis of an existing Drosophila melanogaster dataset reveals a new set of genes involved in post-mating response. In: https://doi.org/10.5281/zenodo.10928217, editor. Zenodo. v2024-04-04-1.0.4 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2024.
-6.	Olalekan R, Laver J, Yuka G, Biggane J, Aramayo R, Nagesh V, authors o. PREreview of "Epigenetic deprogramming driven by disruption of CIZ1-RNA nuclear assemblies in early-stage breast cancers". In: https://doi.org/10.5281/zenodo.13896173, editor. Zenodo. v1 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2024.
-7.	Oliveras A, Silvera M, Coskun P, Bajaj T, Aramayo R, Saikia Q, Faria-Pereira A, Yuka G, Davies M, Laver L, author o. PREreview of "Cytoplasmic ribosomes hitchhike on mitochondria to dendrites". In: https://doi.org/10.5281/zenodo.14268614, editor. Zenodo. v1 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2024.
-8.	Aramayo R. PepStats_Tables_Python. In: https://doi.org/10.5281/zenodo.10889792, editor. Zenodo. v2024-03-28-1.0.0 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2024.
-9.	Aramayo R. PepStats_Tables_Bash. In: https://doi.org/10.5281/zenodo.12209240, editor. Zenodo. v2024-06-21-1.0.5 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2024.
-10.	Aramayo R. HeatMap_Tables_Python. In: https://doi.org/10.5281/zenodo.15150156, editor. Zenodo. v2025-04-04-1.0.2 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2025.
-11.	Aramayo R. Fasta_Seq_Prepare_Bash. In: https://doi.org/10.5281/zenodo.12209223, editor. Zenodo. v2024-06-21-1.0.5 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2024.
-12.	Aramayo R. Fasta_Seq_Plot_Bash. In: https://doi.org/10.5281/zenodo.12209220, editor. Zenodo. v2024-06-21-1.0.7 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2024.
-13.	Aramayo R. Fasta_GFF3_Equalizer_Bash. In: https://doi.org/10.5281/zenodo.12209207, editor. Zenodo. v2024-06-21-1.0.2 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2024.
-14.	Gallucci JL, Aramayo R. Do Public Databases Need Higher Standards for Next-Generation Data Submissions? In: https://doi.org/10.5281/zenodo.7943045, editor. Zenodo. v2023-05-16-1.0.0 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2023.
-15.	Aramayo R. Digital_Biology. In: https://doi.org/10.5281/zenodo.6626236, editor. Zenodo. v2022-06-08-1.0.0 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2022.
-16.	Aramayo R. Computational_Genomics. In: https://doi.org/10.5281/zenodo.7897471, editor. Zenodo. (v2023-05-04-2023-1.0.3 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2023.
-17.	Aramayo R. Compara_lists. In: https://doi.org/10.5281/zenodo.6584768, editor. Zenodo. v2022-05-26-1.0.1 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2022.
-18.	Aramayo R. Busco_Plot. In: https://doi.org/10.5281/zenodo.10945686, editor. Zenodo. v2024-04-08-1.0.0 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2024.
-19.	Aramayo R. Bioinformatics_Fall_2021. In: https://doi.org/10.5281/zenodo.6620727, editor. Zenodo. v2022-06-07-2021-1.0.2 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2022.
-20.	Aramayo R. Assessing the Influence of Sequence Duplications and Genome Annotations on Transcriptional Profiling Measurements. In: https://doi.org/10.5281/zenodo.11122398, editor. Zenodo. v2024-05-06-1.0.0 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2024.
