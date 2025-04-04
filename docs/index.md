@@ -1,6 +1,7 @@
 <p align="left">
 <img src="https://github.com/raramayo/Rodolfo_Aramayo/blob/main/assets/Rodolfo_Pic.jpg?raw=true" alt="Rodolfo Aramayo, PhD" width="600" height="300">
 </p>
+
 **Rodolfo Aramayo, PhD**
 **Genetics, Genomics, Computational Biology, and Informatics**
 **Email: rodolfo@aramayo.org**
