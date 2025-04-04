@@ -6,7 +6,7 @@ information in Biological Systems. At the moment, I am trying to
 address the following questions:
 
 **Can we Develop computational algorithms to address the complexities
-of genome data** We are currently studying different ways to correct
+of genome data?** We are currently studying different ways to correct
 Transcriptional Profiling estimation errors due to the presence of
 repetitive sequences in Eukaryotic genomes. We are also developing
 computational algorithms to identify different regions present in
