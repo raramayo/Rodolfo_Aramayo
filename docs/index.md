@@ -1,8 +1,5 @@
 <p align="center">
-<img src="https://github.com/raramayo/Rodolfo_Aramayo/blob/main/assets/Rodolfo_Pic.jpg?raw=true" alt="Rodolfo Aramayo, PhD" width="300" height="200">
-
-![](https://github.com/raramayo/Rodolfo_Aramayo/blob/main/assets/Rodolfo_Pic.jpg?raw=true "Rodolfo Aramayo, PhD")
-
+<img src="https://github.com/raramayo/Rodolfo_Aramayo/blob/main/assets/Rodolfo_Pic.jpg?raw=true" alt="Rodolfo Aramayo, PhD" width="600" height="300">
 
 **Rodolfo Aramayo, PhD**  
 **Genetics, Genomics, Computational Biology, and Informatics**  
