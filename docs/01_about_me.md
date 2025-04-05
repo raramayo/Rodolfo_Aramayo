@@ -1,6 +1,6 @@
 # **About me**
 
-## **Personal Statement**
+## ***Personal Statement***
 
 I am an expert in Molecular Biology, Genetics, Genomics, and Computational Genomics, with
 specialized training in Fungal Genetics. My research has led to groundbreaking discoveries in
