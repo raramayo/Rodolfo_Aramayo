@@ -4,9 +4,9 @@
 
 I am an expert in Molecular Biology, Genetics, Genomics, and Computational Genomics, with
 specialized training in Fungal Genetics. My research has led to groundbreaking discoveries in
-meiotic transvection and gene silencing mechanisms involving the model organism Neurospora
-crassa. Additionally, my experience extends to working extensively with other important model
-organisms, including Aspergillus nidulans and Saccharomyces cerevisiae.
+meiotic transvection and gene silencing mechanisms involving the model organism *Neurospora*
+*crassa*. Additionally, my experience extends to working extensively with other important model
+organisms, including *Aspergillus nidulans* and *Saccharomyces cerevisiae*.
 
 Leveraging my unique integration of classical genetics and molecular biology with advanced
 computational techniques, I have developed novel algorithms and workflows capable of transforming

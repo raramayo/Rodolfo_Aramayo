@@ -5,14 +5,14 @@ organization, distribution, interconnection, and comparison of
 information in Biological Systems. At the moment, I am trying to
 address the following questions:
 
-### **Can we Develop computational algorithms to address the complexities of genome data?**  
+### ***Can we Develop computational algorithms to address the complexities of genome data?***  
 We are currently studying different ways to correct Transcriptional
 Profiling estimation errors due to the presence of repetitive
 sequences in Eukaryotic genomes. We are also developing computational
 algorithms to identify different regions present in highly related
 genomes.
 
-### **Can Digitalization of Genomic Information Simplify Genomic Analysis?**  
+### ***Can Digitalization of Genomic Information Simplify Genomic Analysis?***  
 We are particularly intrigued by the prospect of simplifying (i.e.,
 digitizing) the information present in DNA, RNA, and Proteins so as to
 simplify its manipulation and analysis. We are currently developing
@@ -34,7 +34,7 @@ informational perspective also contributes to our comprehension of
 genome evolution, especially in the field of comparative genomics and
 microbial metagenomics.
 
-### **Do Non-Coding RNAs regulate the interaction of Ribosomal RNAs and Ribosomal proteins?**  
+### ***Do Non-Coding RNAs regulate the interaction of Ribosomal RNAs and Ribosomal proteins?***  
 Using _Homo sapiens_ Next Generation Sequencing RNA data, we have
 recently detected the presence of a set on non-coding RNAs with
 homology to Ribosomal RNAs. We hypothesize that this set of non-coding
@@ -47,7 +47,7 @@ very important, and yet undisclosed, observation that has the
 potential of changing our current view of translational regulation in
 all organisms.
 
-### **How are Sequence Variations Detected and Targeted for Silencing in Fungal Meiosis?**  
+### ***How are Sequence Variations Detected and Targeted for Silencing in Fungal Meiosis?***  
 We employ the filamentous fungus _Neurospora crassa_ as a model
 organism to uncover and comprehend the intricate molecular components
 responsible for sequence-based comparisons between homologous

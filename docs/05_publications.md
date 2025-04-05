@@ -1,6 +1,6 @@
 # **Publications**
 
-## **Electronic Publications**
+## ***Electronic Publications***
 1.	Aramayo R. HeatMap_Tables_Python. In: https://doi.org/10.5281/zenodo.15150156, editor. Zenodo. v2025-04-04-1.0.2 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2025.
 2.	Aramayo R. Transcripts_Plots_Python. In: https://doi.org/10.5281/zenodo.14962604, editor. Zenodo. v2025-03-03-1.0.2 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2025.
 3.	Aramayo R. Taxonomy_Fasta_Headers_Python. In: https://doi.org/10.5281/zenodo.14967828, editor. Zenodo. v2025-03-04-1.0.0 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2025.
@@ -22,7 +22,7 @@
 19.	Aramayo R. Teaching Computational Genomics: A Tale of Tables and Tests. In: https://doi.org/10.5281/zenodo.6634707, editor. Zenodo. v2022-06-11-1.0.0 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2022.
 20.	Aramayo R. Digital_Biology. In: https://doi.org/10.5281/zenodo.6626236, editor. Zenodo. v2022-06-08-1.0.0 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2022.
 21.	Aramayo R. Myxococcus xanthus DZ2 Genome Assembly. In: https://doi.org/10.5281/zenodo.6359694, editor. Zenodo. v2022-03-16-1.0.0 ed. Zenodo (CERN Data Centre & Invenio): CERN Data Centre & InvenioRDM; 2022.
-## **Peer-Reviewed Publications**
+## ***Peer-Reviewed Publications***
 1.	White B, Aramayo R. Identification and Characterization of Reciprocal Amino-Acids Residues Substitutions. In preparation. 2024.
 2.	Ramirez P, MH M, Aramayo R, Mateos M. Diverse toxin repertoire but limited metabolic capacities inferred from the draft genome assemblies of three Spiroplasma (Citri clade) strains associated with Drosophila. bioRxiv. 2024:2024.09.23.613922v1. doi: 10.1101/2024.09.23.613922.
 3.	Bennett CJ, Aramayo R. A Re-Analysis of an Existing Drosophila melanogaster Dataset Reveals a New Set of Genes Involved in Post-Mating Response. bioRxiv. 2024:2024.04.10.588867. doi: 10.1101/2024.04.10.588867.
