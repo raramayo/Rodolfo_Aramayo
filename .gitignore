@@ -4,16 +4,3 @@
 .venv/
 __pycache__/
 site/
-
-# Development sources and private reference material never belong in this
-# public repository if they are copied here accidentally.
-/assets/
-/Aramayo_Lab/
-/codex-notes/
-/codex_resume.md
-/DEVELOPMENT_WORKSPACE.md
-/other/
-/output/
-/scripts/build_biotech_ai_resume.py
-/supplemental/
-/supplemental_docs/
