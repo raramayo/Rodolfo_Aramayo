@@ -1,68 +1,93 @@
-site_name: Rodolfo_Aramayo
-site_url: https://raramayo.github.io/Rodolfo_Aramayo/
+site_name: "Aramayo Lab · Rodolfo Aramayo"
+site_url: "https://raramayo.github.io/Rodolfo_Aramayo/"
+site_description: "The Aramayo Lab at Texas A&M University integrates computational genomics, bioinformatics, and large language models to investigate molecular and evolutionary biology through reproducible research."
+site_author: "Rodolfo Aramayo"
+
 nav:
-    - Home: index.md
-    - About me: 01_about_me.md
-    - Professional Skills: 02_Professional_Skills.md
-    - Research: 03_research.md
-    - Teaching: 04_teaching.md
-    - Publications: 05_publications.md
-    - Funding: 06_funding.md
-    - Resume: 07_Resume_Rodolfo_Aramayo.pdf
+  - Home: index.md
+  - Research:
+      - Selected Work: 02_selected_work.md
+      - MutScan Model Audit: 03_variant_prediction_rationale.md
+      - Research Focus: 03_research.md
+  - Lab:
+      - People & Projects: 04_lab.md
+      - Teaching & Mentorship: 04_teaching.md
+  - Expertise:
+      - Capabilities: 02_Professional_Skills.md
+      - Publications & Software: 05_publications.md
+  - About:
+      - Profile: 01_about_me.md
+      - Funding & Research Support: 06_funding.md
+  - Contact & Profile: 07_cv_contact.md
+
 theme:
-  name: 'material'
-  # name: 'readthedocs'
+  name: material
+  custom_dir: overrides
+  language: en
+  font: false
+  icon:
+    logo: material/dna
   palette:
-    - primary: 'black'
-    - scheme: default
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to dark mode
-    - scheme: slate
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
         name: Switch to light mode
   features:
+    - navigation.instant
+    - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
-    - navigation.tracking
     - navigation.top
-    - toc.integrate
     - search.suggest
     - search.highlight
     - search.share
-    - contents.tabs.link
-    - content.code.annotation
-    - content.code.copy
-  plugins:
-    - search:
-    - social:
-    - privacy:
-        links_attr_map:
-          target: "_blank"
-  lang: 'en'
+    - content.tabs.link
+    - content.tooltips
+
+plugins:
+  - search
+
+extra_css:
+  - stylesheets/extra.css
+
 extra:
   social:
-    - icon: fontawesome/brands/github-alt
+    - icon: fontawesome/brands/github
       link: https://github.com/raramayo
+      name: Rodolfo Aramayo on GitHub
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/rodolfo-aramayo-572297196/
+      name: Rodolfo Aramayo on LinkedIn
+    - icon: fontawesome/brands/orcid
+      link: https://orcid.org/0000-0001-9702-6204
+      name: Rodolfo Aramayo on ORCID
+    - icon: fontawesome/solid/book-open
+      link: https://zenodo.org/communities/aramayo_lab/records?q=&l=list&p=1&s=10&sort=newest
+      name: Aramayo Lab on Zenodo
+
 markdown_extensions:
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.inlinehilite:
-  - pymdownx.snippets:
-  - admonition:
-  - pymdownx.arithmatex:
-      generic: true
-  - footnotes:
-  - pymdownx.details:
-  - pymdownx.superfences:
-  - pymdownx.mark:
-  - attr_list:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences
+
 copyright: |
-  &copy; 2024 <a href+"https://github.com/raramayo" target="_blank" rel="noopener">Rodolfo Aramayo </a>
+  &copy; 2026 <a href="https://raramayo.github.io/Rodolfo_Aramayo/">Rodolfo Aramayo</a>

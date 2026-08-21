@@ -1,58 +1,58 @@
-# Professional Skills
+---
+title: Technical Capabilities
+description: Capabilities in protein model auditing, computational genomics, reproducible scientific software, and molecular genetics.
+---
 
-## ***Bioinformatics, Genomics, and AI Integration***
-- ***Human Genetics and Genomics***: Specialized knowledge in human genome analysis and
-  interpretation.
-- ***Microbial Genetics and Epigenetics***: Deep expertise in bacterial and fungal genetics,
-  emphasizing fungal epigenetic regulation.
-- ***Omics Data Expertise***: Advanced expert in genomic, epigenomic, transcriptomic, and proteomic
-  datasets.
-- ***Bioinformatics Pipeline Development***: Skilled in designing robust pipelines for large-scale,
-  high-throughput biological data.
-- ***Next-Generation Sequencing (NGS)***: Proficient in DNA and RNA sequencing analysis using
-  Illumina, Pacific Biosciences, and Ion Torrent platforms.
-- ***Genome and Transcriptome Assembly and Annotation***: Extensive experience in comprehensive genome
-  assembly, annotation, and analysis.
-- ***Genomic Data Analysis***: Skilled in Galaxy-based genomic data analysis, visualization, and
-  integration with AI-based analytical methods.
-- ***Comparative Genomics and Metagenomics***: Experienced in comparative genomic analyses, proteomic
-  evaluations, and metagenomic investigations.
-- ***Algorithm and AI Model Development***: Advanced skills in algorithm development for biological
-  data processing, tailored specifically for machine learning and artificial intelligence
-  applications.
-- ***AI Interaction and Prompt Engineering***: Proficient in designing, refining, and implementing
-  sophisticated prompts for optimal AI model interactions, including iterative feedback loops and
-  enhanced performance tuning.
+# Technical Capabilities
 
-## ***Programming, Technical, and AI Training Skills***
-- ***AI Annotation and Training***: Demonstrated expertise in dataset annotation, AI model
-  training, validation, and iterative optimization processes.
-- ***Bioinformatics Software Implementation***: Experienced in deploying cutting-edge bioinformatics
-  tools across multiple computing environments, including cloud services.
-- ***Data Analysis and Visualization***: Proficient in Jupyter Lab for interactive data exploration,
-  visualization, and communication of complex biological and computational results.
-- ***Programming and Scripting***: Expert-level proficiency in Python (including Pandas), R, Perl,
-  C/C++, and UNIX/Linux platforms with Bash/Shell scripting.
-- ***Version Control and Collaboration***: Extensive use of Git/GitLab and GitHub for managing
-  collaborative projects and maintaining reproducible research workflows.
-- ***Statistical Analysis***: Skilled application of statistical software (especially R) to extract
-  meaningful insights from complex biological and computational datasets.
-- ***Cloud-Based Solutions***: Experienced in implementing bioinformatics solutions connected to
-  cloud-based SQL and PostgreSQL databases.
+My strongest contribution is the combination of biological domain judgment, quantitative model evaluation, and reproducible software engineering.
 
-## ***Industry, Leadership, and Innovation***
-- ***Industry Consultancy***: Proven strategic consulting experience with a focus on delivering
-  results and enhancing project outcomes.
-- ***Analytical and Communication Skills***: Strong analytical abilities complemented by excellent
-  problem-solving, communication, and organizational skills adaptable to diverse professional
-  contexts.
-- ***Innovative and Interdisciplinary Thinking***: Unique ability to simplify complex scientific
-  concepts, translating them effectively for varied stakeholders, and applying engineering
-  principles to molecular biology and AI integration.
-- ***Leadership and Mentorship***: Demonstrated leadership capabilities, having successfully
-  supervised and mentored research projects involving postdoctoral researchers, graduate students,
-  and undergraduate students.
+## Protein language models and model evaluation
 
-## ***Molecular Biology and Biochemistry***
-- ***Molecular Techniques***: Extensive expertise in molecular biology, including DNA, RNA, and
-  protein extraction, purification, and characterization.
+- **Protein language models:** ESM1b, ESM1v, ESM2 through 15B parameters, ESMC, and ESM3 for zero-shot variant scoring.
+- **Model decomposition:** Per-protein separation of site-level, substitution-type, and residual score components; comparison with additive main-effects and classical substitution-matrix baselines.
+- **Statistical design:** Nested-model identifiability, checkpoint repeatability, evidence-dependence analysis, and gene-specific heterogeneity.
+- **Benchmark design:** Per-target ROC/AUROC ranking, stratified evaluation, parameter-scaling analysis, and accuracy-versus-compute operating points.
+- **Failure analysis:** Benchmark circularity, correlated predictors, training-data composition, low-confidence and disordered regions, and systematic edge-case handling.
+- **Evidence integration:** AlphaFold pLDDT, structural context, clinical resources, transcript selection, and rule-based physicochemical features.
+- **Correctness standards:** Bit-deterministic execution, regression testing, release gating, and run-level provenance.
+
+## Variant-interpretation research and clinical resources
+
+- Missense-variant mapping to functional-effect and clinical-evidence context.
+- ClinVar, dbSNP, Ensembl, HGVS nomenclature, MANE Select, and transcript databases.
+- VCF processing and high-confidence reference or benchmark datasets.
+- Research-focused comparison and prioritization with explicit gene- and disease-specific boundaries.
+
+## Computational genomics and bioinformatics
+
+- Genome and transcriptome assembly, annotation, and comparative analysis.
+- Genomic, epigenomic, transcriptomic, proteomic, and metagenomic data.
+- Illumina, PacBio, and Ion Torrent sequencing platforms.
+- Bulk and single-cell assays including scRNA-seq, scATAC-seq, ATAC-seq, CUT&amp;TAG, CUT&amp;RUN, ChIP-seq, and EM-seq.
+- Differential expression, pathway enrichment, motif discovery, and regulatory-network inference.
+
+## Scientific software and scalable computing
+
+- Python, R, Bash/Shell, pandas, NumPy, scikit-learn, PyTorch, and Bioconductor.
+- HPC clusters, Slurm scheduling, parallelization, and resource optimization.
+- Portable CPU/GPU workflows and cloud-based execution.
+- Git/GitHub, documented pipelines, automated validation, and provenance manifests.
+- Jupyter-based exploration and publication-quality visualization.
+
+## Experimental biology
+
+- Molecular genetics, genome engineering, and mutant generation.
+- DNA, RNA, and protein extraction, purification, and characterization.
+- Bacterial and fungal model organisms, including *Escherichia coli*, *Bacillus subtilis*, *Aspergillus nidulans*, *Neurospora crassa*, and *Saccharomyces cerevisiae*.
+- Epigenetics, RNA silencing, gene regulation, ribosome biology, and protein function.
+
+## Leadership
+
+- Principal-investigator and research-team leadership.
+- Mentoring of postdoctoral, graduate, and undergraduate researchers.
+- Scientific editing, interdisciplinary collaboration, and industry consulting.
+- Translation of complex biological questions into testable computational systems.
+
+[View selected work](02_selected_work.md){ .md-button .md-button--primary }
+[Read the MutScan model-audit rationale](03_variant_prediction_rationale.md){ .md-button }

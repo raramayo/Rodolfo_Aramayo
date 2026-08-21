@@ -1,58 +1,58 @@
-# **Research**
+---
+title: Research Focus
+description: Research in protein model auditing, variant interpretation, computational genomics, and molecular genetics.
+---
 
-My current research primarily focuses on understanding the
-organization, distribution, interconnection, and comparison of
-information in Biological Systems. At the moment, I am trying to
-address the following questions:
+# Research Focus
 
-### ***Can we Develop computational algorithms to address the complexities of genome data?***  
-We are currently studying different ways to correct Transcriptional
-Profiling estimation errors due to the presence of repetitive
-sequences in Eukaryotic genomes. We are also developing computational
-algorithms to identify different regions present in highly related
-genomes.
+My research asks how biological sequence encodes function—and how computational systems can interpret that information without losing biological context, quantitative rigor, or reproducibility.
 
-### ***Can Digitalization of Genomic Information Simplify Genomic Analysis?***  
-We are particularly intrigued by the prospect of simplifying (i.e.,
-digitizing) the information present in DNA, RNA, and Proteins so as to
-simplify its manipulation and analysis. We are currently developing
-novel computational pipelines dedicated to detecting sequence
-variations within related genomes. We think that digitizing emerging
-genomic data will not only enable us to use this data effectively but
-also to integrate it into Artificial Intelligence, Data Clustering,
-and Image Recognition Algorithms, in ways not done before. We posit
-that this process of converting biological features into digital
-equivalents has the potential to simplify genomic information, making
-it easier to uncover previously unnoticed patterns through complex
-computational comparisons. This approach has already yielded promising
-results by revealing unexpected informational patterns across various
-organisms' chromosomes. We believe that it will streamline and enhance
-our ability to comprehend different cellular and organismal
-states. Moreover, it holds significant promise in revolutionizing our
-understanding of diseases, particularly Cancer and Metagenomics. This
-informational perspective also contributes to our comprehension of
-genome evolution, especially in the field of comparative genomics and
-microbial metagenomics.
+## Protein model auditing for variant interpretation
 
-### ***Do Non-Coding RNAs regulate the interaction of Ribosomal RNAs and Ribosomal proteins?***  
-Using _Homo sapiens_ Next Generation Sequencing RNA data, we have
-recently detected the presence of a set on non-coding RNAs with
-homology to Ribosomal RNAs. We hypothesize that this set of non-coding
-RNAs interact with segments of Ribosomal RNAs so as to participate (by
-interfering or enhancing), the interaction of ribosomal proteins with
-the Ribosomal RNAs. If confirmed, this observation would reveal yet
-another level of translational regulation. It would also assign
-function to a large set of non-coding RNAs. In our view, this is a
-very important, and yet undisclosed, observation that has the
-potential of changing our current view of translational regulation in
-all organisms.
+My current priority is determining what zero-shot ESM-family protein language model scores measure, when their signal is valid, and how that signal should be combined with gene-specific biological evidence.
 
-### ***How are Sequence Variations Detected and Targeted for Silencing in Fungal Meiosis?***  
-We employ the filamentous fungus _Neurospora crassa_ as a model
-organism to uncover and comprehend the intricate molecular components
-responsible for sequence-based comparisons between homologous
-chromosomes, leading to the initiation of Meiotic Silencing, a
-phenomenon driven by RNA-mediated processes. Currently, our primary
-focus centers on the exploration of whether genes recognized for their
-significance in Meiotic Transvection/Silencing also contribute to the
-occurrence of Repeat Induced Point Mutation (RIP) phenomena.
+This work includes:
+
+- zero-shot variant scoring with ESM1b, ESM1v, ESM2, ESMC, and ESM3;
+- per-protein decomposition of scores into site-level, substitution-type, and residual score components;
+- comparison with explicit additive main-effects models and classical substitution matrices;
+- per-protein ROC/AUROC and stratified benchmark analysis;
+- model parameter-scaling and accuracy-versus-compute studies;
+- integration with ClinVar, dbSNP, Ensembl, HGVS, and MANE Select;
+- use of AlphaFold pLDDT confidence and structural context;
+- analysis of benchmark circularity and dependence among evidence sources;
+- checkpoint repeatability, workflow reproducibility, and explicit failure analysis; and
+- gene-specific interpretation of model behavior using evolutionary and structural biology.
+
+The principal current project, MutScan, is a model-evaluation and evidence-integration research program spanning 15 disease-associated human proteins. It examines unique and shared signal rather than assuming that agreement among methods represents independent confirmation.
+
+**Status:** Research in progress; manuscript in preparation (2026).
+
+[Read why this analysis matters](03_variant_prediction_rationale.md){ .md-button .md-button--primary }
+[View the selected-work overview](02_selected_work.md#large-protein-models-for-variant-prediction){ .md-button }
+
+## Computational genomics and bioinformatics
+
+### Genome assembly and comparative genomics
+
+I have contributed to complete and draft microbial genome assemblies, including *Myxococcus xanthus* and multiple *Spiroplasma* strains. My interests include comparative genome architecture, sequence variation, annotation quality, and reproducible genome-analysis workflows.
+
+### Transcriptomics and multiomics
+
+My experience spans genomic, epigenomic, and transcriptomic analysis using Illumina, PacBio, and Ion Torrent data. It includes bulk and single-cell assays, differential expression, pathway enrichment, motif discovery, and regulatory-network inference.
+
+A current project examines how sequence duplication and genome annotation affect transcriptional-profiling measurements in the human genome.
+
+### Open scientific software and scalable computing
+
+I develop scientific workflows in Python, R, and Bash/Shell and deploy analyses across local, HPC, and cloud environments. My work emphasizes version control, provenance, deterministic execution, portability, and transparent reporting.
+
+Our latest contribution to reproducible manuscript preparation is the [Manuscript Multi-Target LaTeX Template v1.0.0](https://zenodo.org/records/22018962). It keeps one authoritative manuscript source while producing arXiv, bioRxiv, Zenodo, and neutral PDF profiles; the [source code and documentation are available on GitHub](https://github.com/raramayo/Manuscripts_Templates_Latex).
+
+## Experimental foundation
+
+My computational research is grounded in molecular genetics, genome engineering, epigenetics, and RNA biology. Earlier work investigated developmental gene regulation in *Aspergillus nidulans* and sequence recognition and RNA-mediated meiotic silencing in *Neurospora crassa*.
+
+This biological foundation informs how I evaluate computational and AI systems: predictions must be assessed not only statistically, but also in the context of mechanism, experimental design, evolutionary history, evidence dependence, and the limitations of the underlying data.
+
+[Meet the Aramayo Lab](04_lab.md) · [View selected work](02_selected_work.md) · [View publications and software](05_publications.md)
