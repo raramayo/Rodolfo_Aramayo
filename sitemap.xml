@@ -2,30 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://raramayo.github.io/Rodolfo_Aramayo/</loc>
-         <lastmod>2025-04-05</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://raramayo.github.io/Rodolfo_Aramayo/01_about_me/</loc>
-         <lastmod>2025-04-05</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://raramayo.github.io/Rodolfo_Aramayo/02_Professional_Skills/</loc>
-         <lastmod>2025-04-05</lastmod>
+         <lastmod>2026-08-21</lastmod>
+    </url>
+    <url>
+         <loc>https://raramayo.github.io/Rodolfo_Aramayo/02_selected_work/</loc>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://raramayo.github.io/Rodolfo_Aramayo/03_research/</loc>
-         <lastmod>2025-04-05</lastmod>
+         <lastmod>2026-08-21</lastmod>
+    </url>
+    <url>
+         <loc>https://raramayo.github.io/Rodolfo_Aramayo/03_variant_prediction_rationale/</loc>
+         <lastmod>2026-08-21</lastmod>
+    </url>
+    <url>
+         <loc>https://raramayo.github.io/Rodolfo_Aramayo/04_lab/</loc>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://raramayo.github.io/Rodolfo_Aramayo/04_teaching/</loc>
-         <lastmod>2025-04-05</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://raramayo.github.io/Rodolfo_Aramayo/05_publications/</loc>
-         <lastmod>2025-04-05</lastmod>
+         <lastmod>2026-08-21</lastmod>
     </url>
     <url>
          <loc>https://raramayo.github.io/Rodolfo_Aramayo/06_funding/</loc>
-         <lastmod>2025-04-05</lastmod>
+         <lastmod>2026-08-21</lastmod>
+    </url>
+    <url>
+         <loc>https://raramayo.github.io/Rodolfo_Aramayo/07_cv_contact/</loc>
+         <lastmod>2026-08-21</lastmod>
     </url>
 </urlset>

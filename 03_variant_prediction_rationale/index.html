@@ -6,19 +6,19 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Rodolfo Aramayo's teaching and mentorship in digital biology, molecular cell biology, genomics, genetics, and computational biology at Texas A&M University.">
+        <meta name="description" content="The MutScan rationale for decomposing protein-language-model scores, testing their residual signal, and defining where they can support variant interpretation.">
       
       
         <meta name="author" content="Rodolfo Aramayo">
       
       
-        <link rel="canonical" href="https://raramayo.github.io/Rodolfo_Aramayo/04_teaching/">
+        <link rel="canonical" href="https://raramayo.github.io/Rodolfo_Aramayo/03_variant_prediction_rationale/">
       
       
-        <link rel="prev" href="../04_lab/">
+        <link rel="prev" href="../02_selected_work/">
       
       
-        <link rel="next" href="../02_Professional_Skills/">
+        <link rel="next" href="../03_research/">
       
       
         
@@ -29,7 +29,7 @@
     
     
       
-        <title>Teaching & Mentorship - Aramayo Lab · Rodolfo Aramayo</title>
+        <title>What Protein Language Models Actually Add - Aramayo Lab · Rodolfo Aramayo</title>
       
     
     
@@ -60,16 +60,16 @@
   
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Aramayo Lab · Rodolfo Aramayo">
-  <meta property="og:title" content="Teaching &amp; Mentorship">
-  <meta property="og:description" content="Rodolfo Aramayo&#39;s teaching and mentorship in digital biology, molecular cell biology, genomics, genetics, and computational biology at Texas A&amp;M University.">
-  <meta property="og:url" content="https://raramayo.github.io/Rodolfo_Aramayo/04_teaching/">
+  <meta property="og:title" content="What Protein Language Models Actually Add">
+  <meta property="og:description" content="The MutScan rationale for decomposing protein-language-model scores, testing their residual signal, and defining where they can support variant interpretation.">
+  <meta property="og:url" content="https://raramayo.github.io/Rodolfo_Aramayo/03_variant_prediction_rationale/">
   <meta property="og:image" content="https://raramayo.github.io/Rodolfo_Aramayo/assets/images/og-card.png?v=20260821">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Aramayo Lab social card featuring a stylized protein structure and the headline Reproducible AI-Driven Approaches to Molecular and Evolutionary Genomics">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Teaching &amp; Mentorship">
-  <meta name="twitter:description" content="Rodolfo Aramayo&#39;s teaching and mentorship in digital biology, molecular cell biology, genomics, genetics, and computational biology at Texas A&amp;M University.">
+  <meta name="twitter:title" content="What Protein Language Models Actually Add">
+  <meta name="twitter:description" content="The MutScan rationale for decomposing protein-language-model scores, testing their residual signal, and defining where they can support variant interpretation.">
   <meta name="twitter:image" content="https://raramayo.github.io/Rodolfo_Aramayo/assets/images/og-card.png?v=20260821">
   <meta name="twitter:image:alt" content="Aramayo Lab social card featuring a stylized protein structure and the headline Reproducible AI-Driven Approaches to Molecular and Evolutionary Genomics">
   
@@ -93,7 +93,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#teaching-mentorship" class="md-skip">
+        <a href="#what-do-protein-language-models-actually-add" class="md-skip">
           Skip to content
         </a>
       
@@ -129,7 +129,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Teaching & Mentorship
+              What Protein Language Models Actually Add
             
           </span>
         </div>
@@ -246,10 +246,12 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
+      <li class="md-tabs__item md-tabs__item--active">
         <a href="../02_selected_work/" class="md-tabs__link">
           
   
@@ -266,12 +268,10 @@
   
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
+      <li class="md-tabs__item">
         <a href="../04_lab/" class="md-tabs__link">
           
   
@@ -413,26 +413,31 @@
       
   
   
+    
   
   
+  
     
     
     
     
+      
+        
+        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   
@@ -450,7 +455,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -493,10 +498,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../03_variant_prediction_rationale/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MutScan Model Audit
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -512,6 +544,81 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-distinction-that-matters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The distinction that matters
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a-label-independent-decomposition" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A label-independent decomposition
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-the-analysis-is-difficult" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why the analysis is difficult
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-the-work-is-designed-to-deliver" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What the work is designed to deliver
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#current-status-and-methodological-context" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Current status and methodological context
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -556,31 +663,26 @@
       
   
   
-    
   
   
-  
     
     
     
     
-      
-        
-        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
             
   
   
@@ -598,7 +700,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -641,37 +743,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Teaching & Mentorship
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../04_teaching/" class="md-nav__link">
         
   
   
@@ -687,98 +762,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#research-mentorship" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Research mentorship
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#fall-2026-teaching" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Fall 2026 teaching
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#selected-curriculum-developed" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Selected curriculum developed
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Selected curriculum developed">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#computational-genomics-and-genomics" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Computational Genomics and Genomics
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#advanced-eukaryotic-genetics-and-epigenetics" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Advanced Eukaryotic Genetics and Epigenetics
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#information-in-biology" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Information in Biology
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1075,10 +1058,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#research-mentorship" class="md-nav__link">
+  <a href="#the-distinction-that-matters" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Research mentorship
+        The distinction that matters
       
     </span>
   </a>
@@ -1086,10 +1069,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#fall-2026-teaching" class="md-nav__link">
+  <a href="#a-label-independent-decomposition" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Fall 2026 teaching
+        A label-independent decomposition
       
     </span>
   </a>
@@ -1097,52 +1080,35 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#selected-curriculum-developed" class="md-nav__link">
+  <a href="#why-the-analysis-is-difficult" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Selected curriculum developed
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Selected curriculum developed">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#computational-genomics-and-genomics" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Computational Genomics and Genomics
+        Why the analysis is difficult
       
     </span>
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#advanced-eukaryotic-genetics-and-epigenetics" class="md-nav__link">
+      
+        <li class="md-nav__item">
+  <a href="#what-the-work-is-designed-to-deliver" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Advanced Eukaryotic Genetics and Epigenetics
+        What the work is designed to deliver
       
     </span>
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#information-in-biology" class="md-nav__link">
+      
+        <li class="md-nav__item">
+  <a href="#current-status-and-methodological-context" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Information in Biology
+        Current status and methodological context
       
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -1163,43 +1129,124 @@
 
 
 
-<h1 id="teaching-mentorship">Teaching &amp; Mentorship<a class="headerlink" href="#teaching-mentorship" title="Permanent link">&para;</a></h1>
-<p>I enjoy an active faculty role in the Department of Biology at Texas A&amp;M University, where I teach across molecular and computational biology and mentor scientists in translating broad biological questions into testable, reproducible work.</p>
-<section class="ra-proof" aria-label="Current faculty and teaching roles">
-  <div><strong>Faculty Mentor</strong><span>Associate Professor · Texas A&amp;M Biology</span></div>
-  <div><strong>BIOL 647</strong><span>Digital Biology · graduate · Fall 2026</span></div>
-  <div><strong>BIOL 213</strong><span>Molecular Cell Biology · undergraduate · Fall 2026</span></div>
+<h1 id="what-do-protein-language-models-actually-add">What do protein language models actually add?<a class="headerlink" href="#what-do-protein-language-models-actually-add" title="Permanent link">&para;</a></h1>
+<p class="ra-status ra-status--large">Active methodological research · Manuscript in preparation (2026)</p>
+
+<p class="ra-page-lede">Better variant prediction requires understanding what a model measures—not only how well it ranks a benchmark.</p>
+
+<p>Within MutScan, I am developing a per-protein analysis of zero-shot ESM scores. The objective is to determine how much of each score reflects site-level effects and general amino-acid substitution patterns, how much remains unexplained by an additive main-effects model, and whether that residual is reproducible across independently trained model checkpoints.</p>
+<p>This is the question that connects my background in molecular genetics, evolutionary biology, computational genomics, statistical design, and scientific software: <strong>when is an AI result biologically meaningful, where might it fail, and what evidence should come next?</strong></p>
+<section class="ra-proof" aria-label="Current methodological scope">
+  <div><strong>19 × L</strong><span>Single amino-acid substitutions examined for each protein</span></div>
+  <div><strong>5</strong><span>Independently seeded ESM1v checkpoints used for sensitivity analysis</span></div>
+  <div><strong>84</strong><span>Internal replicate workflow runs used to verify deterministic execution under tested configurations</span></div>
 </section>
 
-<h2 id="research-mentorship">Research mentorship<a class="headerlink" href="#research-mentorship" title="Permanent link">&para;</a></h2>
-<p>My courses and laboratory mentoring share the same intellectual standard: computational fluency must be paired with biological reasoning, explicit assumptions, clear documentation, and honest interpretation of limitations.</p>
-<p>My students often say that I ask “simple questions that are impossible to answer.” Those deceptively simple questions expose hidden assumptions and require students to connect mechanism, evidence, and analytical choices before an answer becomes scientifically defensible.</p>
-<p>The laboratory's people-and-projects page presents current graduate research and former undergraduate contributions in their scientific context.</p>
-<p><a class="md-button md-button--primary" href="../04_lab/">Meet the Aramayo Lab</a>
-<a class="md-button" href="https://zenodo.org/communities/aramayo_lab/records?q=&amp;l=list&amp;p=1&amp;s=10&amp;sort=newest">Browse Aramayo Lab outputs</a></p>
-<h2 id="fall-2026-teaching">Fall 2026 teaching<a class="headerlink" href="#fall-2026-teaching" title="Permanent link">&para;</a></h2>
+<h2 id="the-distinction-that-matters">The distinction that matters<a class="headerlink" href="#the-distinction-that-matters" title="Permanent link">&para;</a></h2>
 <div class="ra-card-grid ra-card-grid--two">
   <article class="ra-card">
-    <p class="ra-status">Scheduled for Fall 2026 · BIOL 647 · 4-credit graduate course · Online</p>
-    <h3>Digital Biology: reproducible computation by doing</h3>
-    <p>Developed and taught since 2012, Digital Biology is a hands-on, command-line-driven course that teaches students to turn biological questions into organized computational analyses. Students work with Unix/Linux, Bash, Git and GitHub, text-processing tools, genomic data formats, NGS, sequence alignment, read mapping, transcriptome assembly and quantification, R/RStudio, and execution across local, high-performance-computing, and cloud resources.</p>
-    <p>Repository-based assessment makes reproducibility a daily practice: students document commands, scripts, processed data, assignments, and mini-projects in version-controlled repositories before completing project work and a final report. AI-assisted coding, workflow development, and data exploration are paired with required verification, disclosure, biological judgment, and attention to reproducibility, bias, and methodological rigor.</p>
+    <p class="ra-card__number">EVOLUTIONARY EFFECT</p>
+    <h3>Deleteriousness</h3>
+    <p>Refers to reduced organismal fitness. Many computational tools instead estimate related evolutionary-constraint or molecular-effect signals that can be used as evidence about a variant.</p>
   </article>
   <article class="ra-card">
-    <p class="ra-status">Scheduled for Fall 2026 · BIOL 213 · 3-credit undergraduate course · In person</p>
-    <h3>Molecular Cell Biology: mechanisms and evidence</h3>
-    <p>This course examines how cells are built, powered, and regulated, including membranes and transport, cellular energy, genome organization, gene expression, intracellular trafficking, cytoskeletal systems, signaling, cell division, and cancer.</p>
-    <p>Students connect molecular mechanisms with quantitative reasoning, core experimental methods, and the data and evidence underlying current biological understanding. AI may support learning, but not replace independent reasoning or mastery of biological mechanisms.</p>
+    <p class="ra-card__number">CLINICAL INTERPRETATION</p>
+    <h3>Pathogenicity</h3>
+    <p>Depends on the gene, disease mechanism, inheritance, genotype, penetrance, phenotype, and the total evidence available for a particular variant.</p>
   </article>
 </div>
 
-<h2 id="selected-curriculum-developed">Selected curriculum developed<a class="headerlink" href="#selected-curriculum-developed" title="Permanent link">&para;</a></h2>
-<h3 id="computational-genomics-and-genomics">Computational Genomics and Genomics<a class="headerlink" href="#computational-genomics-and-genomics" title="Permanent link">&para;</a></h3>
-<p>These undergraduate and graduate courses prepared students to acquire, organize, analyze, and interpret genome-scale data using Galaxy, CyVerse, national cyberinfrastructure, and Texas A&amp;M computing resources while examining how experimental design and genome annotation affect computational results.</p>
-<h3 id="advanced-eukaryotic-genetics-and-epigenetics">Advanced Eukaryotic Genetics and Epigenetics<a class="headerlink" href="#advanced-eukaryotic-genetics-and-epigenetics" title="Permanent link">&para;</a></h3>
-<p>This graduate course examined genetic and epigenetic mechanisms across eukaryotic model systems, with particular attention to RNA silencing, non-Mendelian inheritance, non-coding RNA, and the experimental logic used to study gene regulation.</p>
-<h3 id="information-in-biology">Information in Biology<a class="headerlink" href="#information-in-biology" title="Permanent link">&para;</a></h3>
-<p>Information in Biology explored how biological systems encode, transmit, compare, and act on information—a question that continues to connect my experimental genetics, computational genomics, and current work with large protein models.</p>
+<p>The two concepts are related, but they are not interchangeable. A protein model may identify an evolutionarily unusual substitution without establishing that the allele causes disease in a particular clinical context. MutScan therefore treats model output as evidence to investigate, not as a clinical classification.</p>
+<h2 id="a-label-independent-decomposition">A label-independent decomposition<a class="headerlink" href="#a-label-independent-decomposition" title="Permanent link">&para;</a></h2>
+<p>For a protein of length <strong>L</strong>, <strong>i</strong> identifies one sequence position, <strong>wtᵢ</strong> is the wild-type amino acid at that position, and <strong>b</strong> is one of the other 19 standard amino acids. The log-likelihood-ratio score <strong>LLR(i, b)</strong> is the zero-shot model score for substituting wtᵢ with b at position i; it contrasts the model's support for those residues under the selected scoring rule. The complete scan therefore contains 19 × L deterministic model outputs—not 19 × L clinical labels or experimental measurements.</p>
+<p>The additive model is fitted separately to each model checkpoint:</p>
+<figure class="ra-decomposition">
+  <div class="ra-equation" role="math" aria-label="The observed log-likelihood-ratio score at position i for alternative amino acid b equals fitted intercept mu, plus fitted site effect alpha at i, plus fitted substitution effect beta for the wild-type residue at i changing to b, plus residual r at i and b.">
+    <span class="ra-equation__formula" aria-hidden="true">
+      <span>LLR(i, b) = μ̂</span>
+      <span>+ α̂<sub>i</sub></span>
+      <span>+ β̂(wt<sub>i</sub> → b)</span>
+      <span>+ r(i, b)</span>
+    </span>
+  </div>
+
+  <dl class="ra-decomposition__terms">
+    <div class="ra-decomposition__term">
+      <dt><span class="ra-decomposition__symbol">μ̂</span><span>Overall level</span></dt>
+      <dd><strong>Fitted intercept.</strong> The shared baseline for the protein's score surface under the chosen coding convention.</dd>
+    </div>
+    <div class="ra-decomposition__term">
+      <dt><span class="ra-decomposition__symbol">α̂ᵢ</span><span>Site</span></dt>
+      <dd><strong>Fitted position effect.</strong> The systematic score shift associated with site i across its 19 possible substitutions.</dd>
+    </div>
+    <div class="ra-decomposition__term">
+      <dt><span class="ra-decomposition__symbol">β̂</span><span>Exchange</span></dt>
+      <dd><strong>Fitted substitution effect.</strong> The directional wtᵢ → b effect shared across positions with the same wild-type residue. It can be compared with, but is not identical to, BLOSUM62.</dd>
+    </div>
+    <div class="ra-decomposition__term">
+      <dt><span class="ra-decomposition__symbol">r</span><span>Residual</span></dt>
+      <dd><strong>Unexplained remainder.</strong> The observed score minus μ̂ + α̂ᵢ + β̂ for this substitution; it is not automatically new biological context.</dd>
+    </div>
+  </dl>
+
+  <figcaption>A hat marks a fitted term. The additive prediction is μ̂ + α̂ᵢ + β̂(wtᵢ → b); the residual r(i, b) is what that baseline does not explain.</figcaption>
+</figure>
+
+<p>Because each site has only one wild-type residue, the design is nested within wild-type-residue classes rather than fully crossed. Explicit coding constraints are therefore required to make the fitted coefficients interpretable. Fitted residuals from separately analyzed checkpoints can then be compared to test checkpoint-level repeatability.</p>
+<p>Here, <strong>label-independent</strong> means that the decomposition uses the protein sequence and model outputs without fitting to pathogenic/benign labels. It does not mean that a residual is automatically biologically informative or clinically valid. The analysis first asks three operational questions for each protein:</p>
+<ol>
+<li>How well can a fitted additive main-effects model—site plus substitution-type effects, without their interaction—describe the PLM scores under the chosen metric?</li>
+<li>How does the fitted substitution-type component compare with a classical matrix such as BLOSUM62 when placed on a compatible scale?</li>
+<li>How much residual variation remains, and how repeatable is it across model checkpoints?</li>
+</ol>
+<p>A nonzero residual does not automatically establish useful new biology. It becomes interesting only if it is reproducible and can be related to independent structural, functional, evolutionary, population, or clinical evidence.</p>
+<h2 id="why-the-analysis-is-difficult">Why the analysis is difficult<a class="headerlink" href="#why-the-analysis-is-difficult" title="Permanent link">&para;</a></h2>
+<div class="ra-card-grid ra-card-grid--two ra-challenge-grid">
+  <article class="ra-card">
+    <h3>Statistical identifiability</h3>
+    <p>Each protein position has only one wild-type residue. Position and substitution effects are therefore nested within wild-type classes, and naive parameterizations can produce rank deficiency or coding-dependent variance attribution.</p>
+  </article>
+  <article class="ra-card">
+    <h3>Checkpoint repeatability</h3>
+    <p>One score per substitution does not provide experimental replication. Five independently seeded ESM1v ensemble checkpoints provide a sensitivity analysis for model-to-model variation—not biological replication.</p>
+  </article>
+  <article class="ra-card">
+    <h3>Benchmark circularity</h3>
+    <p>Clinical-label benchmarks can be partly circular when variant assertions incorporate computational evidence correlated with the methods being evaluated. A random train/test split does not remove that dependency.</p>
+  </article>
+  <article class="ra-card">
+    <h3>Correlated predictors</h3>
+    <p>Substitution matrices, PLMs, and other variant tools can share evolutionary signal. Agreement may therefore repeat one source of evidence rather than provide independent confirmation.</p>
+  </article>
+  <article class="ra-card">
+    <h3>Gene-specific validity</h3>
+    <p>Performance differences among proteins may reflect biology, sample size, label quality, class balance, or ascertainment. Per-protein analysis keeps that heterogeneity visible instead of hiding it inside a pooled average.</p>
+  </article>
+  <article class="ra-card">
+    <h3>Biological interpretation</h3>
+    <p>Alignment depth, paralog composition, selection regime, structural architecture, and population constraint provide hypotheses for why model behavior differs. These explanations must be tested rather than assumed.</p>
+  </article>
+</div>
+
+<h2 id="what-the-work-is-designed-to-deliver">What the work is designed to deliver<a class="headerlink" href="#what-the-work-is-designed-to-deliver" title="Permanent link">&para;</a></h2>
+<p>The intended output is not simply another pathogenicity score. It is a protein-by-protein account of:</p>
+<ul>
+<li>the signal recoverable by an explicit additive main-effects model;</li>
+<li>the repeatable residual component of the PLM score;</li>
+<li>the degree to which different evidence sources overlap;</li>
+<li>the conditions under which model scores support a research interpretation; and</li>
+<li>the categories of additional evidence to investigate when a model cannot resolve the question.</li>
+</ul>
+<p>This framing turns interdisciplinarity into an operational advantage. The PLM supplies a measurement. Statistical model auditing tests what that measurement contains. Evolutionary, structural, and molecular biology supply candidate explanations. Reproducible software makes the analysis inspectable and repeatable.</p>
+<h2 id="current-status-and-methodological-context">Current status and methodological context<a class="headerlink" href="#current-status-and-methodological-context" title="Permanent link">&para;</a></h2>
+<p>This is ongoing methodological research. The decomposition, cross-protein comparisons, and biological explanations are being evaluated; findings remain provisional until the manuscripts and supporting artifacts are publicly released.</p>
+<p>The five ESM1v models used for checkpoint-level sensitivity analysis are independently seeded members of the published ensemble (<a href="https://papers.nips.cc/paper/2021/file/f51338d736f95dd42427296047067694-Paper.pdf">paper</a> and <a href="https://papers.nips.cc/paper/2021/file/f51338d736f95dd42427296047067694-Supplemental.pdf">supplement</a>). The separation between computational prediction and clinical classification is consistent with <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4544753/">ACMG/AMP variant-interpretation standards</a> and subsequent <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9748256/">ClinGen recommendations for calibrated PP3/BP4 computational evidence</a>.</p>
+<div class="admonition warning">
+<p class="admonition-title">Research use only</p>
+<p>This work is not validated for clinical decision-making. Clinical variant interpretation should be performed by qualified professionals using applicable ACMG/AMP and gene- or disease-specific guidance.</p>
+</div>
+<p><a class="md-button" href="../02_selected_work/">View selected work</a>
+<a class="md-button md-button--primary" href="../07_cv_contact/">Discuss collaboration</a></p>
 
 
 
