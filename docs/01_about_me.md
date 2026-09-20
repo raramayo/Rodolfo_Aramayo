@@ -7,11 +7,9 @@ description: Rodolfo Aramayo is an Associate Professor of Biology at Texas A&M U
 
 I am an Associate Professor in the Department of Biology at Texas A&amp;M University and lead the Aramayo Lab. I am a molecular geneticist and computational biologist working at the intersection of protein language model evaluation, genomics, and reproducible research software.
 
-My career has progressed from experimental studies of gene regulation, development, and RNA-mediated silencing to genome-scale computation and, most recently, protein-language-model-based variant interpretation. My current priority is determining what ESM-family model scores contain, which signals they share with classical evolutionary methods, and where gene-specific evidence is still required.
+My work connects experiments, data, and interpretation. I draw on molecular genetics to frame biological questions, computational genomics to investigate them at scale, and reproducible software to make the analysis inspectable. Working across these areas helps me recognize when a promising computational result needs a better control, a different baseline, or an experiment.
 
-That progression is central to how I work. I understand biological data from its experimental origins through its computational representation and interpretation. This helps me identify artifacts, challenge apparently strong model results, and design analyses whose outputs can be reproduced and audited.
-
-Protein models provide measurements to interrogate. Classical evolutionary and structural bioinformatics provide hypotheses for why those measurements differ among proteins. My experimental background helps determine whether those explanations are biologically plausible and testable.
+My current MutScan program asks what protein language model scores contain, which signals they share with classical evolutionary methods, and where gene-specific evidence is still required. This continues a broader interest in how sequence variation, genome organization, and RNA biology influence function.
 
 ## Scientific trajectory
 
@@ -29,6 +27,6 @@ My industry and government experience includes an advisory-board role with F2G a
 
 I welcome academic and cross-sector collaborations, sponsored projects, and selected scientific advisory engagements in which biological judgment, quantitative model evaluation, and software correctness all matter.
 
-[View selected work](02_selected_work.md){ .md-button .md-button--primary }
-[Meet the Aramayo Lab](04_lab.md){ .md-button }
-[Explore teaching and mentorship](04_teaching.md){ .md-button }
+[Selected research](02_selected_work.md){ .md-button .md-button--primary }
+[Meet the lab](04_lab.md){ .md-button }
+[Teaching & mentorship](04_teaching.md){ .md-button }

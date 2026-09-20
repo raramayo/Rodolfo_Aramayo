@@ -1,117 +1,131 @@
 ---
-title: Selected Work
-description: Selected work in protein model auditing, missense-variant evidence integration, computational genomics, and experimental genetics.
+title: Selected Research
+description: Selected computational biology studies by Rodolfo Aramayo and the Aramayo Lab: biological questions, contributions, public outputs, and current research status.
 ---
 
-# Selected Work
+# Selected Research
 
-My work connects biological mechanism, quantitative model evaluation, and reproducible scientific software. Current research is labeled separately from peer-reviewed and publicly released work.
+Our work connects biological questions to computational methods, interpretable results, and reusable research resources. These examples distinguish published findings, released tools, and ongoing investigations.
 
 ## MutScan: model audit and evidence integration
 
-<p class="ra-status ra-status--large">Active methodological research · Manuscripts in preparation (2026)</p>
+<p class="ra-status ra-status--large">Ongoing methodological research · Manuscripts in preparation</p>
 
-MutScan is a reproducibility-aware research program for evaluating missense-variant signals across 15 disease-associated human proteins. It connects two workstreams: auditing what protein language model (PLM) scores contain and examining how multiple evidence sources overlap or contribute distinct information.
+**Question.** What do protein language model scores measure, and how much distinct evidence do they contribute to variant interpretation?
+
+**Contribution.** Rodolfo is developing a per-protein model-audit and evidence-integration program across **15 disease-associated human proteins**. It compares zero-shot ESM-family scores with site and substitution-type baselines, structural context, physicochemical features, and curated variant evidence.
+
+**Current output.** A methodological rationale and an analysis program with explicit baselines, checkpoint comparisons, and computational reproducibility checks. Biological findings remain provisional while manuscripts and supporting artifacts are prepared.
 
 ### Workstream 1 — What do protein language models actually add? { #large-protein-models-for-variant-prediction }
 
-My current priority is determining what zero-shot PLM scores contain—not only how well they rank a benchmark. A strong performance number does not, by itself, establish which biological signal is reflected in a score or whether that signal supports the interpretation being attempted.
+For each protein, a complete 19 × L mutational scan is decomposed into fitted position effects, amino-acid exchange effects, and an unexplained remainder. The decomposition uses sequence and model outputs without fitting clinical labels.
 
-For each protein, I am analyzing a complete 19 × L mutational scan and asking how much of the PLM score can be described by an additive main-effects model—site plus substitution-type effects, without their interaction—and how much remains unexplained.
-
-<div class="ra-card-grid ra-card-grid--three ra-signal-grid">
-  <article class="ra-card">
-    <p class="ra-card__number">SITE</p>
-    <h3>Position-level component</h3>
-    <p>Captures systematic differences among positions, including constraint-related signal.</p>
-  </article>
-  <article class="ra-card">
-    <p class="ra-card__number">SUBSTITUTION</p>
-    <h3>Amino-acid exchange component</h3>
-    <p>Captures substitution-type effects that can be compared with classical matrices such as BLOSUM62.</p>
-  </article>
-  <article class="ra-card">
-    <p class="ra-card__number">RESIDUAL</p>
-    <h3>Residual component</h3>
-    <p>Measures what the additive main-effects model does not explain and tests whether that remainder is reproducible.</p>
-  </article>
-</div>
-
-The decomposition is computed from model outputs and sequence alone, without clinical labels. This creates a label-independent way to measure the fitted additive main effects, compare the substitution-type component with a classical matrix such as BLOSUM62, and quantify the residual before asking whether any of those signals are clinically informative.
-
-[Read the full research rationale](03_variant_prediction_rationale.md){ .md-button .md-button--primary }
-
-#### Model-evaluation program
-
-The wider program evaluates ESM1b, ESM1v, ESM2 models through 15 billion parameters, ESMC, and ESM3 for zero-shot variant scoring. It combines per-protein ROC/AUROC analysis, stratified benchmarks, parameter-scaling studies, AlphaFold pLDDT and structural context, curated variant evidence, and explicit failure-mode analysis.
-
-Five independently seeded ESM1v ensemble checkpoints support checkpoint-to-checkpoint repeatability analysis. They are kept conceptually separate from the 84-run workflow verification used to test computational reproducibility.
-
-This work evaluates systems built on existing protein foundation models; it does not claim to train those foundation models.
+<figure class="ra-model-map">
+  <div class="ra-model-map__input"><strong>Protein sequence + model scores</strong><span>One score for each of 19 substitutions at each position</span></div>
+  <div class="ra-model-map__branches">
+    <div><strong>Position</strong><span>Effects shared across substitutions at a site</span></div>
+    <div><strong>Exchange</strong><span>Effects shared by a directional amino-acid change</span></div>
+    <div><strong>Residual</strong><span>What the fitted additive model leaves unexplained</span></div>
+  </div>
+  <figcaption>Conceptual decomposition, not a results plot. The residual must be tested for repeatability and biological relevance.</figcaption>
+</figure>
 
 ### Workstream 2 — Evidence integration across 15 proteins
 
-The multi-evidence workstream examines how model scores, rule-based physicochemical features, curated clinical evidence, and structural context overlap or contribute distinct information.
+PLMs, substitution matrices, and other predictors can share evolutionary information. This work asks where agreement represents distinct evidence and where it repeats the same signal. The aim is to identify which gene-specific structural, functional, or other evidence should be investigated next.
 
-The framework does not assume that agreement among methods represents independent confirmation. PLMs, substitution matrices, and other predictors can share evolutionary information, so the analysis examines evidence dependence rather than counting every agreeing score as a separate vote.
+??? info "Model scope and computational verification"
 
-Across my current model-evaluation work, reproducibility is treated as part of correctness. Internal workflow verification produced bit-deterministic outputs across 84 replicate runs under the tested configurations, with per-run provenance manifests connecting inputs, outputs, and execution environments. Separately, the system is designed for portable CPU and GPU execution and for regression testing as methods evolve.
+    The evaluation program includes ESM1b, ESM1v, ESM2 models through 15 billion parameters, ESMC, and ESM3. It uses per-protein ROC/AUROC analysis, stratified benchmarks, parameter-scaling studies, and structural context.
 
-The objective is not simply another score. The work is designed to clarify where current methods apply, where they do not, and which categories of gene-specific structural, functional, population, or clinical evidence should be investigated next. Because this research is ongoing, its findings are provisional until manuscripts and supporting artifacts are publicly released.
+    Five independently seeded ESM1v ensemble checkpoints support checkpoint-to-checkpoint repeatability analysis. Separately, 84 internal replicate workflow runs verified bit-deterministic outputs under the tested configurations, with per-run provenance manifests.
 
-### Related current work
+    Checkpoints are not biological replicates, and workflow repeatability is not evidence of clinical validity. This work evaluates existing protein foundation models; it does not claim to train them.
 
-- **Proteins as Dynamic Networks: Linking Sequence, Structure, Allostery, and Molecular Motion** — Brian White and Rodolfo Aramayo; review manuscript in preparation; [public research record](https://zenodo.org/records/18999780).
-- **Comparing Mutation Responses in Predicted and Experimentally Determined Human RNase 1 Structures** — Brian White and Rodolfo Aramayo; ongoing structure-and-dynamics analysis. The supplied project introduction reports the research questions and methods, not study results.
-- **Composition-Based Comparative Proteomics** — Brian White; graduate research using amino-acid profiles to screen proteome collections for candidate reciprocal substitutions and phenotype-associated differences. Broader comparative analyses remain in progress.
+[Read the MutScan methods](03_variant_prediction_rationale.md){ .md-button .md-button--primary }
 
-[Meet the researchers and see how these projects connect](04_lab.md){ .md-button }
+### LLM-assisted scientific workflows
+
+MutScan also illustrates how Rodolfo uses **Claude and other LLM-based assistants** across software development, comparative analysis, and scientific writing. He directs the biological questions, analytical choices, and interpretation; assistant-generated code and prose are working material to inspect and test.
+
+**Pipeline development.** LLM-assisted development helped turn an RNASE1-specific prototype into a protein-general workflow accepting configurations, FASTA files, or raw sequences. Optional annotations, explicit scoring conventions, and run manifests make inputs, computational settings, and outputs easier to trace.
+
+**Claude-assisted analysis.** Downstream work connects configurable cross-protein comparisons, ensemble-versus-single-model diagnostics, disagreement audits, figure preparation, and manuscript development. This is distinct from the ESM protein language models being evaluated: Claude assists the research process; ESM models supply biological sequence scores.
+
+**Verification in practice.** Development records include configuration checks that caught a parameter-scoping error, repeatability checks under specified settings, and comparisons of figure annotations and manuscript quantities with their source tables. Scientific review also examines whether agreement reflects shared evidence and whether benchmark labels are independent of the predictors being tested.
+
+The emphasis is on making AI-assisted work inspectable and correcting errors—not treating a plausible response or agreement among models as validation. These are research workflows under development; their repositories remain private, and the manuscript is in preparation.
 
 ## Computational genomics
 
-### Sequence duplication and transcriptional profiling
-
-<p class="ra-status">Public research artifact (2024) · Related manuscript in preparation</p>
-
-I study how duplicated sequences and genome-annotation choices can affect transcriptional-profiling measurements in the human genome. This work examines a fundamental source of ambiguity: reads originating from related genomic regions may not support a single, unambiguous assignment.
-
-[View the public research artifact](https://doi.org/10.5281/zenodo.11122398){ .md-button }
-
 ### Microbial genome assembly and comparative genomics
 
-<p class="ra-status">Peer-reviewed</p>
+<p class="ra-status">Peer-reviewed · 2022 and 2025</p>
 
-My computational-genomics work includes complete and draft genome assembly, annotation, and comparative analysis across bacterial systems.
+**Question.** What do microbial genomes reveal about biological capacity and evolutionary differences?
 
-- **Diverse toxin repertoire but limited metabolic capacities inferred from the draft genome assemblies of three *Spiroplasma* strains associated with *Drosophila*.** *Microbial Genomics*, 2025. [Read the publication](https://doi.org/10.1099/mgen.0.001408).
-- **De Novo Assembly and Annotation of the Complete Genome Sequence of *Myxococcus xanthus* DZ2.** *Microbiology Resource Announcements*, 2022. [Read the publication](https://doi.org/10.1128/mra.01074-21) · [View the assembly record](https://doi.org/10.5281/zenodo.6359694).
+**Contribution.** Rodolfo co-authored genome assembly, annotation, and comparative-genomics studies of *Myxococcus xanthus* and *Drosophila*-associated *Spiroplasma*.
+
+**Published outputs.** A complete *M. xanthus* DZ2 genome assembly and annotation, and a draft-genome study of three *Spiroplasma* strains that inferred diverse toxin repertoires alongside limited metabolic capacities. These studies provide sequence resources and biological hypotheses for subsequent work.
+
+- **Aramayo R, Nan B.** *De Novo Assembly and Annotation of the Complete Genome Sequence of Myxococcus xanthus DZ2.* *Microbiology Resource Announcements*. 2022;11(5):e0107421. [Paper](https://doi.org/10.1128/mra.01074-21) · [Assembly record](https://doi.org/10.5281/zenodo.6359694).
+- **Ramirez P, Martinez Montoya H, Aramayo R, Mateos M.** *Diverse toxin repertoire but limited metabolic capacities inferred from the draft genome assemblies of three Spiroplasma strains associated with Drosophila.* 2025. [Paper](https://doi.org/10.1099/mgen.0.001408).
 
 ### Reanalysis of public transcriptomic data
 
-<p class="ra-status">Preprint (2024)</p>
+<p class="ra-status">Preprint · 2024</p>
 
-I co-authored a reanalysis of an existing *Drosophila melanogaster* dataset that identified an additional set of genes associated with the post-mating response.
+**Question.** What additional biological signal can be recovered from an existing dataset?
 
-[Read the preprint](https://doi.org/10.1101/2024.04.10.588867) · [View the research record](https://doi.org/10.5281/zenodo.10928217)
+**Contribution and output.** Rodolfo co-authored a reanalysis of a *Drosophila melanogaster* dataset that identified an additional set of genes associated with the post-mating response. The preprint and research record document the work.
+
+[Preprint](https://doi.org/10.1101/2024.04.10.588867) · [Research record](https://doi.org/10.5281/zenodo.10928217)
+
+### Sequence duplication and transcriptional profiling
+
+<p class="ra-status">Public research artifact · Related manuscript in preparation</p>
+
+**Question.** How do duplicated sequences and annotation choices affect expression measurements?
+
+**Current work.** Rodolfo investigates the ambiguity introduced when reads from related genomic regions do not support a unique assignment. This connects biological interpretation to the assumptions used in quantification.
+
+[Public research artifact](https://doi.org/10.5281/zenodo.11122398)
 
 ## Experimental genetics foundation
 
 <p class="ra-status">Peer-reviewed</p>
 
-My computational work is grounded in experimental molecular genetics. Earlier research includes the first report of meiotic transvection in fungi and subsequent studies of sequence recognition, Argonaute-associated meiotic silencing, and the properties of unpaired DNA in *Neurospora crassa*.
+Rodolfo's experimental work established a foundation in developmental gene regulation, RNA biology, and sequence recognition during fungal meiosis. It includes the first report of meiotic transvection in fungi and subsequent studies of unpaired DNA and meiotic silencing in *Neurospora crassa*.
 
-- [Meiotic transvection in fungi — *Cell*, 1996](https://doi.org/10.1016/S0092-8674(00)80081-1)
-- [Properties of unpaired DNA required for efficient silencing — *Genetics*, 2004](https://doi.org/10.1534/genetics.167.1.131)
-- [*Neurospora crassa* as a model for epigenetics — *Cold Spring Harbor Perspectives in Biology*, 2013](https://doi.org/10.1101/cshperspect.a017921)
+That experience informs the laboratory's computational questions: which mechanism could explain a result, which controls are missing, and what experiment could distinguish competing explanations?
+
+[Meiotic transvection — Cell](https://doi.org/10.1016/S0092-8674(00)80081-1) · [Unpaired DNA and silencing — Genetics](https://doi.org/10.1534/genetics.167.1.131) · [Neurospora epigenetics review](https://doi.org/10.1101/cshperspect.a017921)
 
 ## Open scientific software
 
-Selected public releases include:
+### Manuscript Multi-Target LaTeX Template
 
-- [Manuscript Multi-Target LaTeX Template v1.0.0](https://zenodo.org/records/22018962) — our latest open-software release for reproducible manuscript preparation. It uses one authoritative manuscript source to produce arXiv, bioRxiv, Zenodo, and neutral PDF profiles while keeping content, figures, citations, bibliography, and layout shared; [source code and documentation on GitHub](https://github.com/raramayo/Manuscripts_Templates_Latex).
-- [HeatMap_Tables_Python](https://doi.org/10.5281/zenodo.15214452) — reproducible heat-map table generation and analysis.
+<p class="ra-status">Released software · v1.0.0 · August 2026</p>
+
+**Problem.** Maintaining separate manuscript copies for different publication profiles can introduce formatting and content drift.
+
+**Contribution.** One authoritative LaTeX source produces arXiv, bioRxiv, Zenodo, and neutral PDF profiles, with shared content, figures, citations, bibliography, and layout. The repository includes a build driver and dependency checks.
+
+**Public output.** A versioned software release with source code and documentation. The profiles support preparation; submission requirements still need to be checked for the destination.
+
+[Zenodo release](https://zenodo.org/records/22018962){ .md-button .md-button--primary }
+[Code & documentation](https://github.com/raramayo/Manuscripts_Templates_Latex){ .md-button }
+
+Other released tools address recurring analysis tasks:
+
+- [HeatMap_Tables_Python](https://doi.org/10.5281/zenodo.15214452) — heat-map table generation and analysis.
 - [Taxonomy_Fasta_Headers_Python](https://doi.org/10.5281/zenodo.15216319) — taxonomy-aware FASTA header processing.
 - [Fasta_GFF3_Equalizer_Bash](https://doi.org/10.5281/zenodo.12209207) — sequence and annotation reconciliation.
 
-[Browse GitHub](https://github.com/raramayo){ .md-button .md-button--primary }
-[Browse the Zenodo collection](https://zenodo.org/communities/aramayo_lab/records?q=&l=list&p=1&s=10&sort=newest){ .md-button }
+## Research across the laboratory
+
+Brian White's work connects comparative proteomics with protein structure and dynamics. Julen Gamboa studies circadian behavior and comparative genomic architecture. Former undergraduate projects examine isoform evolution, sequencing-data quality, and primate protein conservation.
+
+[People & projects](04_lab.md){ .md-button }
+[Publications & software](05_publications.md){ .md-button }

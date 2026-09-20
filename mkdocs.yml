@@ -6,19 +6,17 @@ site_author: "Rodolfo Aramayo"
 nav:
   - Home: index.md
   - Research:
-      - Selected Work: 02_selected_work.md
-      - MutScan Model Audit: 03_variant_prediction_rationale.md
-      - Research Focus: 03_research.md
-  - Lab:
-      - People & Projects: 04_lab.md
-      - Teaching & Mentorship: 04_teaching.md
-  - Expertise:
-      - Capabilities: 02_Professional_Skills.md
-      - Publications & Software: 05_publications.md
-  - About:
-      - Profile: 01_about_me.md
-      - Funding & Research Support: 06_funding.md
-  - Contact & Profile: 07_cv_contact.md
+      - Selected Research: 02_selected_work.md
+      - Research Approach: 03_research.md
+      - MutScan Methods: 03_variant_prediction_rationale.md
+      - Research Capabilities: 02_Professional_Skills.md
+      - Research Support: 06_funding.md
+  - People:
+      - Lab & Projects: 04_lab.md
+      - Rodolfo Aramayo: 01_about_me.md
+  - Publications & Software: 05_publications.md
+  - Teaching: 04_teaching.md
+  - Contact: 07_cv_contact.md
 
 theme:
   name: material

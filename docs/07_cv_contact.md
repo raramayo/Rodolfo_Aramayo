@@ -7,9 +7,9 @@ description: Contact Rodolfo Aramayo, Associate Professor of Biology at Texas A&
 
 <section class="ra-contact-intro">
   <p class="ra-kicker">Faculty research · Academic collaboration · Scientific advisory work</p>
-  <h2>Let’s discuss collaborative research where biological judgment and model rigor both matter.</h2>
-  <p>I welcome academic collaborations in protein-model interpretation, evolutionary bioinformatics, comparative genomics, genome assembly, transcriptomics, genetics, epigenetics, and RNA biology.</p>
-  <p>I also engage with biotechnology and AI organizations through sponsored research, cross-sector projects, and selected scientific advisory work involving protein model auditing, variant-interpretation research, benchmark design, failure analysis, computational genomics, and reproducible scientific pipelines.</p>
+  <h2>Let’s connect biology, computation, and testable questions.</h2>
+  <p>I welcome academic collaborations, sponsored research, and selected scientific advisory work in computational genomics, biological model evaluation, molecular genetics, and reproducible scientific software.</p>
+  <p>For research inquiries, a short description of the biological question, available data, and possible collaboration is a useful starting point.</p>
 </section>
 
 ## Contact
@@ -37,5 +37,3 @@ description: Contact Rodolfo Aramayo, Associate Professor of Biology at Texas A&
 ## Additional profiles
 
 - [NCBI My Bibliography](https://www.ncbi.nlm.nih.gov/myncbi/rodolfo.aramayo.1/bibliography/public/)
-- [LinkedIn](https://www.linkedin.com/in/rodolfo-aramayo-572297196/)
-- [GitHub](https://github.com/raramayo)
