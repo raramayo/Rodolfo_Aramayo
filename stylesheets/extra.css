@@ -83,12 +83,16 @@ input {
   font-weight: 700;
   line-height: 1.25;
   padding: 0.5em 0.9em;
+  min-height: 2.2rem;
+  max-width: 100%;
   vertical-align: middle;
-  white-space: nowrap;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  text-align: center;
 }
 
 .md-typeset p > .md-button + .md-button {
-  margin-left: 0.45rem;
+  margin: 0.4rem 0 0.4rem 0.45rem;
 }
 
 .md-typeset .md-button--primary {
@@ -107,11 +111,11 @@ input {
   position: relative;
   isolation: isolate;
   display: grid;
-  grid-template-columns: minmax(0, 1.45fr) minmax(15rem, 0.7fr);
-  gap: clamp(2rem, 5vw, 5rem);
+  grid-template-columns: minmax(0, 1.7fr) minmax(12rem, 0.7fr);
+  gap: clamp(1.5rem, 3vw, 3rem);
   align-items: center;
   margin: 0 0 2rem;
-  padding: clamp(2rem, 6vw, 5rem);
+  padding: clamp(1.5rem, 3.5vw, 3rem);
   overflow: hidden;
   border: 1px solid rgba(98, 212, 207, 0.2);
   border-radius: 1.75rem;
@@ -142,7 +146,7 @@ input {
 }
 
 .ra-hero h1 {
-  max-width: 22ch;
+  max-width: 28ch;
   margin: 0 0 1.25rem;
   font-size: clamp(1.55rem, 2.8vw, 2.5rem);
   line-height: 1.08;
@@ -162,8 +166,8 @@ input {
   max-width: 66ch;
   margin: 0;
   color: rgba(255, 255, 255, 0.84);
-  font-size: clamp(1rem, 1.6vw, 1.2rem);
-  line-height: 1.65;
+  font-size: clamp(0.9rem, 1.3vw, 1.05rem);
+  line-height: 1.6;
 }
 
 .ra-actions {
@@ -185,13 +189,12 @@ input {
 
 .md-typeset .ra-profile-links {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   align-items: center;
   gap: 0;
   max-width: 100%;
   margin: 1rem 0 0 !important;
   padding: 0 !important;
-  overflow-x: auto;
   list-style: none !important;
   white-space: nowrap;
 }
@@ -547,6 +550,7 @@ input {
 
 .ra-person-card__header {
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
   align-items: flex-start;
   justify-content: space-between;
@@ -560,6 +564,7 @@ input {
 
 .ra-topic-tag {
   flex: 0 0 auto;
+  max-width: 100%;
   padding: 0.3rem 0.55rem;
   border-radius: 999px;
   background: color-mix(in srgb, var(--md-default-bg-color) 82%, var(--ra-teal) 18%);
@@ -567,7 +572,7 @@ input {
   font-size: 0.64rem;
   font-weight: 800;
   letter-spacing: 0.04em;
-  white-space: nowrap;
+  white-space: normal;
 }
 
 .ra-person-card h4 {
@@ -727,6 +732,171 @@ input {
   outline-offset: 3px;
 }
 
+.ra-faculty-line {
+  color: rgba(255, 255, 255, 0.84);
+  font-size: 0.78rem;
+  line-height: 1.6;
+}
+
+.ra-faculty-line a,
+.ra-lab-intro a:not(.md-button) {
+  color: var(--ra-cyan);
+}
+
+.ra-hero__content,
+.ra-card,
+.ra-feature,
+.ra-person-card,
+.ra-contact-grid > div {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.md-typeset .ra-research-flow,
+.md-typeset .ra-model-map {
+  width: 100%;
+  max-width: none;
+  margin: 1.5rem 0;
+  text-align: left;
+}
+
+.md-typeset .ra-research-flow ol {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.8rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.md-typeset .ra-research-flow li {
+  margin: 0;
+  padding: 1rem;
+  border-top: 3px solid var(--ra-teal);
+  background: color-mix(in srgb, var(--md-default-bg-color) 96%, var(--ra-teal) 4%);
+}
+
+.ra-flow-number {
+  color: var(--ra-teal);
+  font-size: 0.7rem;
+  font-weight: 800;
+}
+
+.ra-research-flow h3 {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+.ra-research-flow p {
+  margin: 0;
+  font-size: 0.78rem;
+}
+
+.md-typeset .ra-research-flow figcaption,
+.md-typeset .ra-model-map figcaption {
+  max-width: none;
+  margin: 0.8rem 0 0;
+  color: var(--ra-muted);
+  font-size: 0.72rem;
+  font-style: normal;
+}
+
+.ra-model-map__input {
+  padding: 1rem;
+  border: 1px solid var(--ra-teal);
+  border-radius: 0.65rem;
+  text-align: center;
+}
+
+.ra-model-map__branches {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.7rem;
+  margin-top: 1rem;
+}
+
+.ra-model-map__branches > div {
+  padding: 0.9rem;
+  border-top: 3px solid var(--ra-teal);
+  background: color-mix(in srgb, var(--md-default-bg-color) 95%, var(--ra-teal) 5%);
+}
+
+.ra-model-map span {
+  display: block;
+  margin-top: 0.3rem;
+  font-size: 0.78rem;
+}
+
+.md-typeset .ra-project-details {
+  margin: 1rem 0;
+  border: 1px solid var(--ra-line);
+  border-radius: 0.6rem;
+  box-shadow: none;
+  font-size: 0.78rem;
+}
+
+.md-typeset .ra-project-details > summary {
+  padding: 0.65rem 0.8rem 0.65rem 2rem;
+  background: color-mix(in srgb, var(--md-default-bg-color) 94%, var(--ra-teal) 6%);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.md-typeset .ra-project-details > summary::before {
+  display: none;
+}
+
+.md-typeset .ra-project-details > summary::after {
+  left: 0.65rem;
+  right: auto;
+}
+
+.ra-project-details .ra-project-list {
+  margin: 0.8rem 0;
+}
+
+.ra-evidence-link {
+  display: inline-block;
+  padding: 0.35rem 0;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.md-typeset .ra-updates {
+  margin: 1rem 0;
+  padding: 0;
+  list-style: none;
+}
+
+.md-typeset .ra-updates li {
+  display: grid;
+  grid-template-columns: 7rem minmax(0, 1fr);
+  gap: 1rem;
+  margin: 0;
+  padding: 1rem 0;
+  border-top: 1px solid var(--ra-line);
+}
+
+.ra-update-date {
+  color: var(--ra-teal);
+  font-size: 0.75rem;
+  font-weight: 750;
+}
+
+.ra-updates p {
+  margin: 0.35rem 0 0;
+}
+
+@media (max-width: 1100px) {
+  .md-typeset .ra-research-flow ol {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .ra-people-grid--current {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 720px) {
   .ra-decomposition__terms {
     grid-template-columns: 1fr;
@@ -788,8 +958,20 @@ input {
   .ra-proof,
   .ra-document-grid,
   .ra-contact-grid,
-  .ra-people-grid--current {
+  .ra-people-grid--current,
+  .ra-model-map__branches,
+  .md-typeset .ra-research-flow ol,
+  .md-typeset .ra-updates li {
     grid-template-columns: 1fr;
+  }
+
+  .md-typeset .ra-updates li {
+    gap: 0.35rem;
+  }
+
+  .md-typeset p > .md-button + .md-button {
+    margin-left: 0;
+    margin-right: 0.45rem;
   }
 
   .ra-person-card__header {
